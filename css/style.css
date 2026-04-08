@@ -1,5 +1,10 @@
 @import url(./components/poster.css); /* solo tiene modificado las dimensiones de las img */
-
+@import url(./components/button.css); 
+@import url(./components/card-horizontal.css); 
+@import url(./components/card-vertical.css); 
+@import url(./components/footer.css); 
+@import url(./components/grids.css); 
+@import url(./components/nav.css); 
 /* Paletas de colores que pueden usar: */
 
 /* Paleta 1: */
@@ -22,12 +27,12 @@
   --color-texto-suave: #457b9d;
 }*/
 
-/* Paleta 3: */
-/*:root {
+
+:root {
   --color-fondo: #141414;
   --color-superficie: #1f1f1f;
   --color-primario: #e50914;
   --color-secundario: #00b4d8;
   --color-texto: #ffffff;
   --color-texto-suave: #b3b3b3;
-}*/
+}
