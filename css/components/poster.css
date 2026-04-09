@@ -9,13 +9,3 @@
 	aspect-ratio: 2 / 3;
 	max-height: clamp(250px, 30vw, 420px);
 }
-
-.poster--detail {
-	aspect-ratio: 2 / 3;
-	max-height: clamp(320px, 42vw, 560px);
-}
-
-.poster--thumbnail {
-	width: 100px;
-	height: 100px;
-}

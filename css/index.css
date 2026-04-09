@@ -1,11 +1,9 @@
 .home {
-    width: min(1200px, 100%);
-    align-self: center;
-    padding: var(--espacio-6);
+    padding: var(--espacio-6) 0;
 }
 
 .home__section {
-    width: 100%;
+    padding: 0;
 }
 
 .home__title {
@@ -13,56 +11,8 @@
     font-size: var(--font-size-h1);
 }
 
-.home .card__title {
-    font-size: calc(var(--font-size-h3) + 0.05rem);
-}
-
-.home .card__meta {
-    font-size: var(--font-size-small);
-}
-
-.movie-card__actions {
-    margin-top: var(--espacio-2);
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--espacio-2);
-}
-
-.movie-card__link {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: var(--espacio-2) var(--espacio-3);
-    border-radius: 999px;
-    border: 1px solid transparent;
-    transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
-}
-
-.movie-card__link:hover,
-.movie-card__link:focus-visible {
-    transform: translateY(-1px);
-}
-
-.movie-card__link--detail {
-    background: rgba(var(--color-secundario-rgb), 0.14);
-}
-
-.movie-card__link--detail:hover,
-.movie-card__link--detail:focus-visible {
-    background: rgba(var(--color-secundario-rgb), 0.28);
-}
-
-.movie-card__link--buy {
-    background: rgba(var(--color-primario-rgb), 0.16);
-}
-
-.movie-card__link--buy:hover,
-.movie-card__link--buy:focus-visible {
-    background: rgba(var(--color-primario-rgb), 0.32);
-}
-
 @media (max-width: 680px) {
     .home {
-        padding: var(--espacio-4);
+        padding: var(--espacio-4) 0;
     }
 }

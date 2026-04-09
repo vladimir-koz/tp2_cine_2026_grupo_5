@@ -1,20 +1,23 @@
-.home__grid,
-.releases__grid {
+.container {
+	width: min(1200px, 100%);
+	margin-inline: auto;
+	padding-inline: var(--espacio-4);
+}
+
+.layout-grid {
 	display: grid;
 	grid-template-columns: repeat(3, minmax(0, 1fr));
 	gap: var(--espacio-4);
 }
 
 @media (max-width: 1024px) {
-	.home__grid,
-	.releases__grid {
+	.layout-grid {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
 }
 
 @media (max-width: 680px) {
-	.home__grid,
-	.releases__grid {
+	.layout-grid {
 		grid-template-columns: 1fr;
 	}
 }
