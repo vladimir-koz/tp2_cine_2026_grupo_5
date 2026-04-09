@@ -1,0 +1,31 @@
+/* Página de estrenos, estética alineada con Inicio */
+.releases {
+    width: min(1200px, 100%);
+    align-self: center;
+    padding: var(--espacio-6);
+}
+
+.releases__section {
+    width: 100%;
+}
+
+.releases__title {
+    margin: 0 0 var(--espacio-4);
+    font-size: var(--font-size-h1);
+}
+
+.releases .card__title {
+    font-size: var(--font-size-h3);
+}
+
+.release-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(var(--color-primario-rgb), 0.45);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+@media (max-width: 680px) {
+    .releases {
+        padding: var(--espacio-4);
+    }
+}
