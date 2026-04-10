@@ -10,67 +10,92 @@
   </head>
 
   <body>
-    <header>
-      <div>
-        <h1>Cine Aurora</h1>
-        <img src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
+    <header class="site-header">
+      <div class="site-header__brand">
+        <h1 class="site-header__title">Cine Aurora</h1>
+        <img
+          class="site-header__logo"
+          src="../assets/favicon/logo-cine.png"
+          alt="logo-cine-aurora"
+        />
       </div>
-      <div>
-        <nav>
-          <a href="../index.html">Inicio</a>
-          <a href="#">Próximos estrenos</a>
-          <a href="../pages/login.html">Mi perfil</a>
-        </nav>
-      </div>
+      <nav class="site-nav" aria-label="Navegación principal">
+        <a class="site-nav__link" href="../index.html">Inicio</a>
+        <a class="site-nav__link site-nav__link--active" href="#">Próximos estrenos</a>
+        <a class="site-nav__link" href="../pages/login.html">Mi perfil</a>
+      </nav>
     </header>
 
-    <main>
-      <section>
-        <h1>Próximos Lanzamientos</h1>
+    <main class="releases">
+      <section class="releases__section container">
+        <h1 class="releases__title">Próximos Lanzamientos</h1>
 
-        <div>
-          <article>
-            <img src="../assets/img/poster-1.png" alt="Próximamente" />
-            <h4>Título del Estreno</h4>
-            <p>Fecha prevista: Mayo 2026</p>
+        <div class="releases__grid layout-grid">
+          <article class="movie-card">
+            <img
+              class="movie-card__image poster poster--catalog"
+              src="../assets/img/poster-1.png"
+              alt="Póster de Título del Estreno"
+            />
+            <h2 class="movie-card__title">Título del Estreno</h2>
+            <p class="movie-card__meta">Fecha prevista: Mayo 2026</p>
           </article>
 
-          <article>
-            <img src="../assets/img/poster-1.png" alt="Próximamente" />
-            <h4>Título del Estreno</h4>
-            <p>Fecha prevista: Mayo 2026</p>
+          <article class="movie-card">
+            <img
+              class="movie-card__image poster poster--catalog"
+              src="../assets/img/poster-1.png"
+              alt="Póster de Título del Estreno"
+            />
+            <h2 class="movie-card__title">Título del Estreno</h2>
+            <p class="movie-card__meta">Fecha prevista: Mayo 2026</p>
           </article>
 
-          <article>
-            <img src="../assets/img/poster-1.png" alt="Próximamente" />
-            <h4>Título del Estreno</h4>
-            <p>Fecha prevista: Mayo 2026</p>
+          <article class="movie-card">
+            <img
+              class="movie-card__image poster poster--catalog"
+              src="../assets/img/poster-1.png"
+              alt="Póster de Título del Estreno"
+            />
+            <h2 class="movie-card__title">Título del Estreno</h2>
+            <p class="movie-card__meta">Fecha prevista: Mayo 2026</p>
           </article>
 
-          <article>
-            <img src="../assets/img/poster-1.png" alt="Próximamente" />
-            <h4>Título del Estreno</h4>
-            <p>Fecha prevista: Mayo 2026</p>
+          <article class="movie-card">
+            <img
+              class="movie-card__image poster poster--catalog"
+              src="../assets/img/poster-1.png"
+              alt="Póster de Título del Estreno"
+            />
+            <h2 class="movie-card__title">Título del Estreno</h2>
+            <p class="movie-card__meta">Fecha prevista: Mayo 2026</p>
           </article>
 
-          <article>
-            <img src="../assets/img/poster-1.png" alt="Próximamente" />
-            <h4>Título del Estreno</h4>
-            <p>Fecha prevista: Mayo 2026</p>
+          <article class="movie-card">
+            <img
+              class="movie-card__image poster poster--catalog"
+              src="../assets/img/poster-1.png"
+              alt="Póster de Título del Estreno"
+            />
+            <h2 class="movie-card__title">Título del Estreno</h2>
+            <p class="movie-card__meta">Fecha prevista: Mayo 2026</p>
           </article>
 
-          <article>
-            <img src="../assets/img/poster-1.png" alt="Próximamente" />
-            <h4>Título del Estreno</h4>
-            <p>Fecha prevista: Mayo 2026</p>
+          <article class="movie-card">
+            <img
+              class="movie-card__image poster poster--catalog"
+              src="../assets/img/poster-1.png"
+              alt="Póster de Título del Estreno"
+            />
+            <h2 class="movie-card__title">Título del Estreno</h2>
+            <p class="movie-card__meta">Fecha prevista: Mayo 2026</p>
           </article>
         </div>
-
       </section>
     </main>
 
-    <footer>
-      <p>&copy; 2026 Cine Aurora - Todos los derechos reservados</p>
+    <footer class="site-footer">
+      <p class="site-footer__text">&copy; 2026 Cine Aurora - Todos los derechos reservados</p>
     </footer>
   </body>
 </html>

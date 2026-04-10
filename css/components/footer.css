@@ -1,0 +1,14 @@
+.site-footer {
+	margin-top: var(--espacio-6);
+	padding: var(--espacio-4);
+	text-align: center;
+	background: var(--color-superficie);
+	border-top: 1px solid var(--color-borde);
+	box-shadow: 0 -6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.site-footer__text {
+	margin: 0;
+	color: var(--color-texto-suave);
+	font-size: var(--font-size-small);
+}
