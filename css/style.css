@@ -6,6 +6,7 @@
 @import url(./components/nav.css); 
 @import url("./index.css");
 @import url("./estrenos.css");
+@import url("./login.css");
 :root {
   --color-fondo: #0f1118;
   --color-superficie: #171b26;
