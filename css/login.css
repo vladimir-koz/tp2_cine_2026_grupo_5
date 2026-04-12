@@ -71,13 +71,14 @@ main {
 
 form {
   background: #1e293b;
-  padding: 30px;
-  border-radius: 15px;
-  width: 320px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 500px;
   display: flex;
   flex-direction: column;
   gap: 15px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  margin: 15px;
 }
 
 form h2 {
@@ -142,3 +143,4 @@ footer {
   background: #111827;
   font-size: 14px;
 }
+
