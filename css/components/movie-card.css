@@ -35,35 +35,3 @@
 	gap: var(--espacio-2);
 }
 
-.movie-card__link {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	padding: var(--espacio-2) var(--espacio-3);
-	border-radius: 999px;
-	border: 1px solid transparent;
-	transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
-}
-
-.movie-card__link:hover,
-.movie-card__link:focus-visible {
-	transform: translateY(-1px);
-}
-
-.movie-card__link--detail {
-	background: rgba(var(--color-secundario-rgb), 0.14);
-}
-
-.movie-card__link--detail:hover,
-.movie-card__link--detail:focus-visible {
-	background: rgba(var(--color-secundario-rgb), 0.28);
-}
-
-.movie-card__link--buy {
-	background: rgba(var(--color-primario-rgb), 0.16);
-}
-
-.movie-card__link--buy:hover,
-.movie-card__link--buy:focus-visible {
-	background: rgba(var(--color-primario-rgb), 0.32);
-}
