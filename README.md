@@ -16,3 +16,4 @@
 - Santino Aloisio (rama: alumno4_aloisio)
 
 - Francisco Jaszczuk (rama: alumno5_jaszczuk)
+    -Se realizo la estructura de panel de usuario, reutilizando clases globales e implementando las clases propias de perfil.
