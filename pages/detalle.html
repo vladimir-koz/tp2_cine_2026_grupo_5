@@ -26,18 +26,22 @@
     </nav>
   </header>
 
-  <main>
-    <section class="container">
-      <div>
-        <img src="../assets/img/poster-1.png" alt="Póster" />
-      </div>
-      <div>
-        <div>
-          <h1>Título</h1>
-          <h2>Lorem ipsum, dolor sit.</h2>
+  <main class="page">
+    <section class="page__section container">
+      <div class="detail__container">
+        <div class="detail__img">
+          <img src="../assets/img/poster-1.png" alt="Póster" />
         </div>
-        <div>
-          <h3>Sinopsis</h3>
+
+        <div class="detail__title">
+          <h2 class="title-1 color-primary">Título</h2>
+          <h3 class="title-2">Lorem ipsum, dolor sit.</h3>
+        </div>
+        <div class="detail__rating">
+          <p>Puntuación: ★★★★☆</p>
+        </div>
+        <div class="detail__description">
+          <h4 class="title-3">Sinopsis</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
             ullam ipsum corporis quidem, assumenda magni officia recusandae.
@@ -45,37 +49,40 @@
             voluptatibus laboriosam ut recusandae animi quisquam!
           </p>
         </div>
-        <div>
-          <h3>Duración</h3>
+        <div class="detail__director">
+          <h4 class="title-3">Director</h4>
+          <p>John Doe</p>
+        </div>
+        <div class="detail__duration">
+          <h4 class="title-3">Duración</h4>
           <p>155 minutos</p>
         </div>
 
-        <div>
-          <h3>Género</h3>
+        <div class="detail__gender">
+          <h4 class="title-3">Género</h4>
           <p>Ciencia ficción</p>
         </div>
 
-        <div>
-          <h3>Director</h3>
-          <p>John Doe</p>
-        </div>
 
-        <div>
-          <h3>Clasificación</h3>
+        <div class="detail__clasification">
+          <h4 class="title-3">Clasificación</h4>
           <p>+13</p>
         </div>
-        <div>
-          <h3>Horarios:</h3>
-          <p>16:00</p>
-          <p>19:00</p>
-          <p>22:00</p>
+        <div class="detail__schedule">
+          <h4 class="title-3">Horarios:</h4>
+          <div class="schedule">  
+            <div class="row">16:00  -  Sala 1</div>
+            <div class="row">19:00  -  Sala 1</div>
+            <div class="row">22:00  -  Sala 3</div>
+          </div>
         </div>
-        <div>
-          <p>Puntuación: ★★★★☆</p>
-        </div>
-        <a href="#" onclick="
+
+        <div class="detail__cta">
+          <a class="button button--primary button--highlight" href="#" onclick="
               alert('Lo sentimos, en este momento no funciona nuestro sistema')
             ">Comprar entradas</a>
+        </div>
+
       </div>
     </section>
   </main>
