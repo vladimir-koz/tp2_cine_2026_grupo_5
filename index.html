@@ -1,181 +1,115 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cine Aurora 📽️</title>
-    <meta name="description" content="Cine Aurora - Tu destino para disfrutar del mejor cine en la ciudad. Descubre las últimas películas, compra tus entradas y vive la experiencia cinematográfica al máximo." />
-    <link rel="icon" href="./assets/favicon/logo-cine.png" />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
 
-  <body>
-    <header class="site-header">
-      <div class="site-header__brand">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cine Aurora 📽️</title>
+  <meta name="description"
+    content="Cine Aurora - Tu destino para disfrutar del mejor cine en la ciudad. Descubre las últimas películas, compra tus entradas y vive la experiencia cinematográfica al máximo." />
+  <link rel="icon" href="./assets/favicon/logo-cine.png" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="site-header__brand">
+      <a href="/">
         <h1 class="site-header__title">Cine Aurora</h1>
-        <img
-          class="site-header__logo"
-          src="./assets/favicon/logo-cine.png"
-          alt="logo-cine-aurora"
-        />
+        <img class="site-header__logo" src="./assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
+      </a>
+    </div>
+    <nav class="site-nav" aria-label="Navegación principal">
+      <a class="site-nav__link site-nav__link--active" href="/">Inicio</a>
+      <a class="site-nav__link" href="./pages/estrenos.html">Próximos estrenos</a>
+      <a class="site-nav__link" href="./pages/perfil.html">Mi perfil</a>
+      <a class="site-nav__link" href="./pages/login.html">Login</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="page__section container">
+      <h2 class="title-1">Películas en cartelera</h2>
+
+      <div class="home__grid layout-grid">
+        <article class="movie-card">
+          <img class="movie-card__image poster poster--catalog" src="./assets/img/poster-1.png"
+            alt="Póster de Nombre película" />
+          <h3 class="movie-card__title">Nombre película</h3>
+          <p class="movie-card__meta">Género</p>
+          <div class="movie-card__actions">
+            <a class="button button--primary" href="./pages/detalle.html">Ver más</a>
+            <a class="button button--secondary" href="#"
+              onclick="alert('Lo sentimos, en este momento no funciona nuestro sistema')">Comprar entradas</a>
+          </div>
+        </article>
+
+        <article class="movie-card">
+          <img class="movie-card__image poster poster--catalog" src="./assets/img/poster-1.png"
+            alt="Póster de Nombre película" />
+          <h3 class="movie-card__title">Nombre película</h3>
+          <p class="movie-card__meta">Género</p>
+          <div class="movie-card__actions">
+            <a class="button button--primary" href="./pages/detalle.html">Ver más</a>
+            <a class="button button--secondary" href="#"
+              onclick="alert('Lo sentimos, en este momento no funciona nuestro sistema')">Comprar entradas</a>
+          </div>
+        </article>
+
+        <article class="movie-card">
+          <img class="movie-card__image poster poster--catalog" src="./assets/img/poster-1.png"
+            alt="Póster de Nombre película" />
+          <h3 class="movie-card__title">Nombre película</h3>
+          <p class="movie-card__meta">Género</p>
+          <div class="movie-card__actions">
+            <a class="button button--primary" href="./pages/detalle.html">Ver más</a>
+            <a class="button button--secondary" href="#"
+              onclick="alert('Lo sentimos, en este momento no funciona nuestro sistema')">Comprar entradas</a>
+          </div>
+        </article>
+
+        <article class="movie-card">
+          <img class="movie-card__image poster poster--catalog" src="./assets/img/poster-1.png"
+            alt="Póster de Nombre película" />
+          <h3 class="movie-card__title">Nombre película</h3>
+          <p class="movie-card__meta">Género</p>
+          <div class="movie-card__actions">
+            <a class="button button--primary" href="./pages/detalle.html">Ver más</a>
+            <a class="button button--secondary" href="#"
+              onclick="alert('Lo sentimos, en este momento no funciona nuestro sistema')">Comprar entradas</a>
+          </div>
+        </article>
+
+        <article class="movie-card">
+          <img class="movie-card__image poster poster--catalog" src="./assets/img/poster-1.png"
+            alt="Póster de Nombre película" />
+          <h3 class="movie-card__title">Nombre película</h3>
+          <p class="movie-card__meta">Género</p>
+          <div class="movie-card__actions">
+            <a class="button button--primary" href="./pages/detalle.html">Ver más</a>
+            <a class="button button--secondary" href="#"
+              onclick="alert('Lo sentimos, en este momento no funciona nuestro sistema')">Comprar entradas</a>
+          </div>
+        </article>
+
+        <article class="movie-card">
+          <img class="movie-card__image poster poster--catalog" src="./assets/img/poster-1.png"
+            alt="Póster de Nombre película" />
+          <h3 class="movie-card__title">Nombre película</h3>
+          <p class="movie-card__meta">Género</p>
+          <div class="movie-card__actions">
+            <a class="button button--primary" href="./pages/detalle.html">Ver más</a>
+            <a class="button button--secondary" href="#"
+              onclick="alert('Lo sentimos, en este momento no funciona nuestro sistema')">Comprar entradas</a>
+          </div>
+        </article>
       </div>
-      <nav class="site-nav" aria-label="Navegación principal">
-        <a class="site-nav__link site-nav__link--active" href="#">Inicio</a>
-        <a class="site-nav__link" href="./pages/estrenos.html"
-          >Próximos estrenos</a
-        >
-        <a class="site-nav__link" href="./pages/login.html">Mi perfil</a>
-      </nav>
-    </header>
+    </section>
+  </main>
 
-    <main class="home">
-      <section class="home__section container">
-        <h2 class="home__title">Películas en cartelera</h2>
+  <footer class="site-footer">
+    <p class="site-footer__text">&copy; 2026 Cine Aurora - Todos los derechos reservados</p>
+  </footer>
+</body>
 
-        <div class="home__grid layout-grid">
-          <article class="movie-card">
-            <img
-              class="movie-card__image poster poster--catalog"
-              src="./assets/img/poster-1.png"
-              alt="Póster de Nombre película"
-            />
-            <h3 class="movie-card__title">Nombre película</h3>
-            <p class="movie-card__meta">Género</p>
-            <div class="movie-card__actions">
-              <a
-                class="movie-card__link movie-card__link--detail"
-                href="./pages/detalle.html"
-                >Ver más</a
-              >
-              <a
-                class="movie-card__link movie-card__link--buy"
-                href="#"
-                onclick="alert('Lo sentimos, en este momento no funciona nuestro sistema')"
-                >Comprar entradas</a
-              >
-            </div>
-          </article>
-
-          <article class="movie-card">
-            <img
-              class="movie-card__image poster poster--catalog"
-              src="./assets/img/poster-1.png"
-              alt="Póster de Nombre película"
-            />
-            <h3 class="movie-card__title">Nombre película</h3>
-            <p class="movie-card__meta">Género</p>
-            <div class="movie-card__actions">
-              <a
-                class="movie-card__link movie-card__link--detail"
-                href="./pages/detalle.html"
-                >Ver más</a
-              >
-              <a
-                class="movie-card__link movie-card__link--buy"
-                href="#"
-                onclick="alert('Lo sentimos, en este momento no funciona nuestro sistema')"
-                >Comprar entradas</a
-              >
-            </div>
-          </article>
-
-          <article class="movie-card">
-            <img
-              class="movie-card__image poster poster--catalog"
-              src="./assets/img/poster-1.png"
-              alt="Póster de Nombre película"
-            />
-            <h3 class="movie-card__title">Nombre película</h3>
-            <p class="movie-card__meta">Género</p>
-            <div class="movie-card__actions">
-              <a
-                class="movie-card__link movie-card__link--detail"
-                href="./pages/detalle.html"
-                >Ver más</a
-              >
-              <a
-                class="movie-card__link movie-card__link--buy"
-                href="#"
-                onclick="alert('Lo sentimos, en este momento no funciona nuestro sistema')"
-                >Comprar entradas</a
-              >
-            </div>
-          </article>
-
-          <article class="movie-card">
-            <img
-              class="movie-card__image poster poster--catalog"
-              src="./assets/img/poster-1.png"
-              alt="Póster de Nombre película"
-            />
-            <h3 class="movie-card__title">Nombre película</h3>
-            <p class="movie-card__meta">Género</p>
-            <div class="movie-card__actions">
-              <a
-                class="movie-card__link movie-card__link--detail"
-                href="./pages/detalle.html"
-                >Ver más</a
-              >
-              <a
-                class="movie-card__link movie-card__link--buy"
-                href="#"
-                onclick="alert('Lo sentimos, en este momento no funciona nuestro sistema')"
-                >Comprar entradas</a
-              >
-            </div>
-          </article>
-
-          <article class="movie-card">
-            <img
-              class="movie-card__image poster poster--catalog"
-              src="./assets/img/poster-1.png"
-              alt="Póster de Nombre película"
-            />
-            <h3 class="movie-card__title">Nombre película</h3>
-            <p class="movie-card__meta">Género</p>
-            <div class="movie-card__actions">
-              <a
-                class="movie-card__link movie-card__link--detail"
-                href="./pages/detalle.html"
-                >Ver más</a
-              >
-              <a
-                class="movie-card__link movie-card__link--buy"
-                href="#"
-                onclick="alert('Lo sentimos, en este momento no funciona nuestro sistema')"
-                >Comprar entradas</a
-              >
-            </div>
-          </article>
-
-          <article class="movie-card">
-            <img
-              class="movie-card__image poster poster--catalog"
-              src="./assets/img/poster-1.png"
-              alt="Póster de Nombre película"
-            />
-            <h3 class="movie-card__title">Nombre película</h3>
-            <p class="movie-card__meta">Género</p>
-            <div class="movie-card__actions">
-              <a
-                class="movie-card__link movie-card__link--detail"
-                href="./pages/detalle.html"
-                >Ver más</a
-              >
-              <a
-                class="movie-card__link movie-card__link--buy"
-                href="#"
-                onclick="alert('Lo sentimos, en este momento no funciona nuestro sistema')"
-                >Comprar entradas</a
-              >
-            </div>
-          </article>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <p class="site-footer__text">&copy; 2026 Cine Aurora - Todos los derechos reservados</p>
-    </footer>
-  </body>
 </html>

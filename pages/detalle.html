@@ -1,88 +1,88 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cine Aurora 📽️</title>
-    <meta name="description" content="Cine Aurora - Detalle de la película." />
-    <link rel="icon" href="../assets/favicon/logo-cine.png" />
-    <link rel="stylesheet" href="../css/style.css" />
-  </head>
-  <body>
-    <header>
-      <div>
-        <h1>Cine Aurora</h1>
-        <img src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
-      </div>
-      <div>
-        <nav>
-          <a href="../index.html">Inicio</a>
-          <a href="../pages/estrenos.html">Próximos estrenos</a>
-          <a href="../pages/login.html">Mi perfil</a>
-        </nav>
-      </div>
-    </header>
 
-    <main>
-      <section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cine Aurora 📽️</title>
+  <meta name="description" content="Cine Aurora - Detalle de la película." />
+  <link rel="icon" href="../assets/favicon/logo-cine.png" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="site-header__brand">
+      <a href="/">
+        <h1 class="site-header__title">Cine Aurora</h1>
+        <img class="site-header__logo" src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
+      </a>
+    </div>
+    <nav class="site-nav" aria-label="Navegación principal">
+      <a class="site-nav__link" href="../index.html">Inicio</a>
+      <a class="site-nav__link" href="../pages/estrenos.html">Próximos estrenos</a>
+      <a class="site-nav__link" href="../pages/perfil.html">Mi perfil</a>
+      <a class="site-nav__link" href="../pages/login.html">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container">
+      <div>
+        <img src="../assets/img/poster-1.png" alt="Póster" />
+      </div>
+      <div>
         <div>
-          <img src="../assets/img/poster-1.png" alt="Póster" />
+          <h1>Título</h1>
+          <h2>Lorem ipsum, dolor sit.</h2>
         </div>
         <div>
-          <div>
-            <h1>Título</h1>
-            <h2>Lorem ipsum, dolor sit.</h2>
-          </div>
-          <div>
-            <h3>Sinopsis</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-              ullam ipsum corporis quidem, assumenda magni officia recusandae.
-              Tenetur voluptatem architecto, dolores eius, deleniti quam
-              voluptatibus laboriosam ut recusandae animi quisquam!
-            </p>
-          </div>
-          <div>
-            <h3>Duración</h3>
-            <p>155 minutos</p>
-          </div>
+          <h3>Sinopsis</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+            ullam ipsum corporis quidem, assumenda magni officia recusandae.
+            Tenetur voluptatem architecto, dolores eius, deleniti quam
+            voluptatibus laboriosam ut recusandae animi quisquam!
+          </p>
+        </div>
+        <div>
+          <h3>Duración</h3>
+          <p>155 minutos</p>
+        </div>
 
-          <div>
-            <h3>Género</h3>
-            <p>Ciencia ficción</p>
-          </div>
+        <div>
+          <h3>Género</h3>
+          <p>Ciencia ficción</p>
+        </div>
 
-          <div>
-            <h3>Director</h3>
-            <p>John Doe</p>
-          </div>
+        <div>
+          <h3>Director</h3>
+          <p>John Doe</p>
+        </div>
 
-          <div>
-            <h3>Clasificación</h3>
-            <p>+13</p>
-          </div>
-          <div>
-            <h3>Horarios:</h3>
-            <p>16:00</p>
-            <p>19:00</p>
-            <p>22:00</p>
-          </div>
-          <div>
-            <p>Puntuación: ★★★★☆</p>
-          </div>
-          <a
-            href="#"
-            onclick="
+        <div>
+          <h3>Clasificación</h3>
+          <p>+13</p>
+        </div>
+        <div>
+          <h3>Horarios:</h3>
+          <p>16:00</p>
+          <p>19:00</p>
+          <p>22:00</p>
+        </div>
+        <div>
+          <p>Puntuación: ★★★★☆</p>
+        </div>
+        <a href="#" onclick="
               alert('Lo sentimos, en este momento no funciona nuestro sistema')
-            "
-            >Comprar entradas</a
-          >
-        </div>
-      </section>
-    </main>
+            ">Comprar entradas</a>
+      </div>
+    </section>
+  </main>
 
-    <footer>
-      <p>&copy; 2026 Cine Aurora - Todos los derechos reservados</p>
-    </footer>
-  </body>
+  <footer class="site-footer">
+    <p class="site-footer__text">&copy; 2026 Cine Aurora - Todos los derechos reservados</p>
+  </footer>
+</body>
+
 </html>
