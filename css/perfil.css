@@ -1,0 +1,88 @@
+/* PERFIL */
+
+  .profile__container {
+    display: flex;
+    gap: var(--espacio-6);
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  /* TARJETA USUARIO */
+  .profile-card {
+    background: var(--color-superficie-elevada);
+    border: 1px solid var(--color-borde);
+    border-radius: var(--radio);
+    padding: var(--espacio-4);
+    box-shadow: var(--sombra);
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--espacio-3);
+  
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  .profile-card__img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgba(var(--color-secundario-rgb), 0.5);
+  }
+  
+  .profile-card__name {
+    margin: 0;
+    font-size: var(--font-size-h2);
+  }
+  
+  .profile-card__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .profile-card__item {
+    padding: var(--espacio-2);
+    border-bottom: 1px solid var(--color-borde);
+    font-size: var(--font-size-small);
+  }
+  
+  /* HISTORIAL */
+  .profile-history {
+    background: var(--color-superficie-elevada);
+    border: 1px solid var(--color-borde);
+    border-radius: var(--radio);
+    padding: var(--espacio-4);
+    box-shadow: var(--sombra);
+  
+    flex: 2;
+    min-width: 280px;
+  }
+  
+  .profile-history__title {
+    margin-top: 0;
+    margin-bottom: var(--espacio-3);
+    font-size: var(--font-size-h3);
+  }
+  
+  .profile-history__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .profile-history__item {
+    padding: var(--espacio-2);
+    border-bottom: 1px solid var(--color-borde);
+    font-size: var(--font-size-small);
+  }
+  
+  /* RESPONSIVE */
+  @media (max-width: 680px) {
+    .profile__container {
+      flex-direction: column;
+    }
+  }
