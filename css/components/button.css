@@ -9,6 +9,7 @@
     transform 0.2s ease,
     background-color 0.2s ease,
     border-color 0.2s ease;
+  cursor: pointer;
 }
 
 .button:hover,
@@ -18,7 +19,7 @@
 
 .button--primary {
   background: rgba(var(--color-secundario-rgb), 0.14);
-  color: #FFF; 
+  color: #fff;
   font-family: inherit;
   font-size: var(--font-size-body);
 }
@@ -42,9 +43,8 @@
   text-transform: uppercase;
   background: var(--color-primario);
   padding: var(--espacio-4) var(--espacio-5);
-
 }
 .button--highlight:hover,
 .button--highlight:focus-visible {
-	background: var(--color-cta);
+  background: var(--color-cta);
 }
