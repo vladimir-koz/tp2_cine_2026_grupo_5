@@ -10,6 +10,15 @@
   <link rel="stylesheet" href="../css/style.css" />
 </head>
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cine Aurora 📽️ - Login</title>
+  <meta name="description" content="Cine Aurora - Login" />
+  <link rel="icon" href="../assets/favicon/logo-cine.png" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+
 <body>
   <header class="site-header">
     <div class="site-header__brand">
@@ -20,25 +29,27 @@
     </div>
     <nav class="site-nav" aria-label="Navegación principal">
       <a class="site-nav__link" href="../index.html">Inicio</a>
-      <a class="site-nav__link" href="../pages/estrenos.html">Próximos estrenos</a>
-      <a class="site-nav__link" href="../pages/perfil.html">Mi perfil</a>
-      <a class="site-nav__link site-nav__link--active" href="../pages/login.html">Login</a>
+      <a class="site-nav__link" href="./estrenos.html">Próximos estrenos</a>
+      <a class="site-nav__link" href="./perfil.html">Mi perfil</a>
+      <a class="site-nav__link site-nav__link--active" href="./login.html">Login</a>
     </nav>
   </header>
-  <main>
-    <form action="perfil.html">
-      <h2>Acceso Clientes</h2>
-      <div>
-        <label>Email</label>
-        <input type="email" required />
-      </div>
-      <div>
-        <label>Contraseña</label>
-        <input type="password" required />
-      </div>
-      <button type="submit">Ingresar</button>
-      <p>¿No eres miembro? <a href="registro.html">Regístrate</a></p>
-    </form>
+  <main class="page">
+    <section class="page__section container login-conteiner">
+      <form action="perfil.html" class="login__form">
+        <h2 class="title-1">Acceso Clientes</h2>
+        <div>
+          <label>Email</label>
+          <input type="email" required />
+        </div>
+        <div>
+          <label>Contraseña</label>
+          <input type="password" required />
+        </div>
+        <button type="submit" class="button button--primary">Ingresar</button>
+        <p>¿No eres miembro? <a href="registro.html">Regístrate</a></p>
+      </form>
+    </section>
   </main>
 
   <footer class="site-footer">

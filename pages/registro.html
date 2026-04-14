@@ -26,51 +26,56 @@
     </nav>
   </header>
 
-  <main>
-    <div>
-      <form action="login.html">
-        <h2>Crear nueva cuenta</h2>
-        <div>
+  <main class="page">
+    <div class="page__section container register__container">
+      <form action="login.html" class="register__form">
+        <h2 class="title-1">Crear nueva cuenta</h2>
+        
+        <div class="form__input-container">
           <label>Nombre Completo</label>
-          <input type="text" required />
-        </div>
-        <div>
-          <label>Email</label>
-          <input type="email" required />
-        </div>
-        <div>
-          <label>Fecha de nacimiento</label>
-          <input type="date" required />
-        </div>
-        <div>
-          <label>Contraseña</label>
-          <input type="password" required />
+          <input class="form__input" type="text" required />
         </div>
 
-        <div>
+        <div class="form__input-container">
+          <label>Email</label>
+          <input class="form__input" type="email" required />
+        </div>
+
+        <div class="form__input-container">
+          <label>Fecha de nacimiento</label>
+          <input class="" type="date" required />
+        </div>
+
+        <div class="form__input-container"> 
+          <label>Contraseña</label>
+          <input class="form__input" type="password" required />
+        </div>
+
+        <div class="form__input-container">
           <label>Confirmar contraseña</label>
-          <input type="password" required />
+          <input class="form__input" type="password" required />
         </div>
 
         <hr />
 
         <div>
-          <div>
+          <div class="second-form__container">
             <h3>Datos para ayudar al cine</h3>
-            <p>Estos datos nos ayudan a mejorar tu experiencia.</p>
+            <small>Estos datos nos ayudan a mejorar tu experiencia.</small>
           </div>
+
           <div>
-            <div>
+            <div class="form__input-container">
               <label>Elegí tu color favorito para las butacas</label>
               <input type="color" />
             </div>
 
-            <div>
+            <div class="form__input-container">
               <label>¿Cuántas entradas comprás en general? Min: 0 | Max: 10</label>
               <input type="range" min="0" max="10" />
             </div>
 
-            <div>
+            <div class="form__input-container">
               <label>Seleccioná tu género favorito</label>
               <select>
                 <option>Acción</option>
@@ -81,27 +86,35 @@
                 <option>Romance</option>
               </select>
             </div>
-
+            
             <div>
               <label>Elegí tu snack favorito</label>
-
-              <input type="radio" name="snack" />
-              <label>Pochoclo dulce</label>
-
-              <input type="radio" name="snack" />
-              <label>Pochoclo salado</label>
-
-              <input type="radio" name="snack" />
-              <label>Chocolate</label>
-
-              <input type="radio" name="snack" />
-              <label>Frutos secos</label>
+              <div class="select-options__container">
+                
+                <div class="select__option">
+                  <input type="radio" name="snack" />
+                  <label>Pochoclo dulce</label>
+                </div>
+                <div class="select__option">
+                  <input type="radio" name="snack" />
+                  <label>Pochoclo salado</label>
+                </div>
+                <div class="select__option">
+                  <input type="radio" name="snack" />
+                  <label>Chocolate</label>
+                </div>                
+                <div class="select__option">
+                  <input type="radio" name="snack" />
+                  <label>Frutos secos</label>
+                </div>                
+              </div>
+              
             </div>
           </div>
         </div>
 
-        <div>
-          <button type="submit">Regístrate</button>
+        <div class="submit__container">
+          <button type="submit" class="button button--primary">Regístrate</button>
         </div>
       </form>
     </div>
