@@ -1,64 +1,67 @@
 <!doctype html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cine Aurora 📽️ - Mi perfil</title>
+    <meta name="description" content="Cine Aurora - Mi perfil" />
+    <link rel="icon" href="../assets/favicon/logo-cine.png" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cine Aurora 📽️ - Mi perfil</title>
-  <meta name="description" content="Cine Aurora - Mi perfil" />
-  <link rel="icon" href="../assets/favicon/logo-cine.png" />
-  <link rel="stylesheet" href="../css/style.css" />
-</head>
-
-<body>
-  <header class="site-header">
-    <div class="site-header__brand">
-      <a href="/">
-        <h1 class="site-header__title">Cine Aurora</h1>
-        <img class="site-header__logo" src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
-      </a>
-    </div>
-    <nav class="site-nav" aria-label="Navegación principal">
-      <a class="site-nav__link" href="../index.html">Inicio</a>
-      <a class="site-nav__link" href="../pages/estrenos.html">Próximos estrenos</a>
-      <a class="site-nav__link site-nav__link--active" href="../pages/perfil.html">Mi perfil</a>
-      <a class="site-nav__link" href="../pages/login.html">Login</a>
-    </nav>
-  </header>
-
-  <main>
-    <h1>Panel de usuario</h1>
-    <section>
-      <div>
-        <img src="../assets/img/perfil-placeholder.png" alt="Foto de perfil" />
-        <h2>Hola, John Doe 👋📽️!</h2>
+  <body>
+    <header class="site-header">
+      <div class="site-header__brand">
+        <a href="/">
+          <h1 class="site-header__title">Cine Aurora</h1>
+          <img class="site-header__logo" src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
+        </a>
       </div>
       <div>
-        <p>Nombre completo: John Doe</p>
-        <p>Email: usuario@example.com</p>
-        <p>Fecha de nacimiento: dd/mm/yyyy</p>
-        <p>Contraseña: ********</p>
-        <p>Miembro desde: 2026</p>
+        <nav class="site-nav" aria-label="Navegación principal">
+          <a class="site-nav__link" href="/">Inicio</a>
+          <a class="site-nav__link" href="./estrenos.html">Próximos estrenos</a>
+          <a class="site-nav__link site-nav__link--active" href="./perfil.html">Mi perfil</a>
+          <a class="site-nav__link" href="./login.html">Login</a>
+        </nav>
       </div>
-    </section>
-    <section>
-      <div>
-        <div>
-          <h3>Películas ya vistas</h3>
-        </div>
-        <div>
-          <ul>
-            <li>🎬 Estreno A - Vista el 10/03</li>
-            <li>🎬 Estreno B - Vista el 15/03</li>
+    </header>
+
+    <main class="home">
+      <section class="home__section container">
+        <h2 class="home__title">Panel de usuario</h2>
+    
+      <div class="container profile__container">
+    
+        <!-- PERFIL -->
+        <section class="profile-card">
+          <img src="../assets/img/perfil-placeholder.png" class="profile-card__img" />
+    
+          <h2 class="profile-card__name">Hola, John Doe 👋📽️</h2>
+    
+          <ul class="profile-card__list">
+            <li class="profile-card__item"><strong>Nombre:</strong> John Doe</li>
+            <li class="profile-card__item"><strong>Email:</strong> usuario@example.com</li>
+            <li class="profile-card__item"><strong>Nacimiento:</strong> dd/mm/yyyy</li>
+            <li class="profile-card__item"><strong>Miembro desde:</strong> 2026</li>
           </ul>
-        </div>
+        </section>
+    
+        <!-- HISTORIAL -->
+        <section class="profile-history">
+          <h3 class="profile-history__title">Películas vistas</h3>
+    
+          <ul class="profile-history__list">
+            <li class="profile-history__item">🎬 Estreno A - 10/03</li>
+            <li class="profile-history__item">🎬 Estreno B - 15/03</li>
+          </ul>
+        </section>
+    
       </div>
-    </section>
-  </main>
+    </main>
 
-  <footer class="site-footer">
-    <p class="site-footer__text">&copy; 2026 Cine Aurora - Todos los derechos reservados</p>
-  </footer>
-</body>
-
+    <footer class="site-footer">
+      <p class="site-footer__text">&copy; 2026 Cine Aurora - Todos los derechos reservados</p>
+    </footer>
+  </body>
 </html>
