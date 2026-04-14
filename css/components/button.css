@@ -18,6 +18,9 @@
 
 .button--primary {
   background: rgba(var(--color-secundario-rgb), 0.14);
+  color: #FFF; 
+  font-family: inherit;
+  font-size: var(--font-size-body);
 }
 
 .button--primary:hover,
