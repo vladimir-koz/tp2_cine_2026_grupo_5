@@ -1,13 +1,14 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cine Aurora 📽️ - Login</title>
-    <meta name="description" content="Cine Aurora - Login" />
-    <link rel="icon" href="../assets/favicon/logo-cine.png" />
-    <link rel="stylesheet" href="../css/style.css" />
-  </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cine Aurora 📽️ - Login</title>
+  <meta name="description" content="Cine Aurora - Login" />
+  <link rel="icon" href="../assets/favicon/logo-cine.png" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
 
 <head>
   <meta charset="UTF-8" />
@@ -33,24 +34,10 @@
       <a class="site-nav__link site-nav__link--active" href="./login.html">Login</a>
     </nav>
   </header>
-  <main>
-    <form action="perfil.html">
-      <h2>Acceso Clientes</h2>
-      <div>
-        <h1>Cine Aurora</h1>
-        <img src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
-      </div>
-      <div>
-        <nav>
-          <a href="../index.html">Inicio</a>
-          <a href="./estrenos.html">Próximos estrenos</a>
-          <a href="../index.html">Volver</a>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <form action="perfil.html">
-        <h2>Acceso Clientes</h2>
+  <main class="page">
+    <section class="page__section container login-conteiner">
+      <form action="perfil.html" class="login__form">
+        <h2 class="title-1">Acceso Clientes</h2>
         <div>
           <label>Email</label>
           <input type="email" required />
@@ -59,13 +46,15 @@
           <label>Contraseña</label>
           <input type="password" required />
         </div>
-        <button type="submit">Ingresar</button>
+        <button type="submit" class="button button--primary">Ingresar</button>
         <p>¿No eres miembro? <a href="registro.html">Regístrate</a></p>
       </form>
-    </main>
+    </section>
+  </main>
 
-    <footer>
-      <p>&copy; 2026 Cine Aurora - Todos los derechos reservados</p>
-    </footer>
-  </body>
+  <footer class="site-footer">
+    <p class="site-footer__text">&copy; 2026 Cine Aurora - Todos los derechos reservados</p>
+  </footer>
+</body>
+
 </html>

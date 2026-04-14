@@ -8,7 +8,6 @@
 @import url(./components/nav.css); 
 @import url(./components/movie-detail.css);
 @import url(./components/main-section.css); 
-@import url(./components/form.css);
-@import url(./index.css);
-@import url(./login.css);
-@import url(./perfil.css);
+@import url(./components/register-form.css);
+@import url(./components/login-form.css);
+@import url(./components/profile.css);
